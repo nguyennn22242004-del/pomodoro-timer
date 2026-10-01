@@ -1,0 +1,11 @@
+Tệp loại bỏ các tệp không cần thiết khi đưa lên Git[cite: 1].
+
+```plaintext
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.vscode/
+.idea/

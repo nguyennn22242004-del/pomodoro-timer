@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pomodoro-linux"
+version = "1.0.0"
+description = "Ứng dụng bấm giờ và quản lý thời gian Pomodoro trên Ubuntu"
+authors = [
+    { name = "Developer", email = "developer@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "PyQt6>=6.4.0",
+]
+
+[project.scripts]
+pomodoro = "pomodoro_linux.app:main"
